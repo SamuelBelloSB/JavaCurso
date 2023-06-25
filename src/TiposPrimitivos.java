@@ -1,5 +1,9 @@
+import java.util.Locale;
+
 public class TiposPrimitivos {
     public static void main(String[] args) throws Exception {
+
+        Locale.setDefault(Locale.US);
         //tipo nome
 
         // Variáveis do tipo inteiro
@@ -17,8 +21,8 @@ public class TiposPrimitivos {
         System.out.println("\nVariáveis do tipo flutuante:");
         float peso = 3.2f; //Número do tipo Float precisa da letra 'f' no final.
         double pi = 3.141592653589793;
-        System.out.print(peso);
-        System.out.print("\n"+pi);
+        System.out.println(peso);
+        System.out.printf("%.6f%n", pi);
 
         // Variáveis do tipo caractere
         System.out.println("\n\nVariáveis do tipo caractere:");
@@ -34,5 +38,9 @@ public class TiposPrimitivos {
         System.out.println("\nVariáveis do tipo String:");
         String nome = "Samuel";
         System.out.println(nome);
+        
+        // Concatenação
+        System.out.println("\nConcatenação:");
+        System.out.printf("%s recebe R$ %.4f a cada %d horas.", nome, pi, numeroByte );
     }
 }
