@@ -15,7 +15,7 @@ public class EntradaDeDados {
 		int a, b;
 		Scanner i = new Scanner(System.in);
 		Scanner j = new Scanner(System.in);
-		System.out.println("\nDigite um valor inteiro para 'a': ");
+		System.out.println("Digite um valor inteiro para 'a': ");
 		a = i.nextInt();
 		System.out.println("\nDigite um valor inteiro para 'b': ");
 		b = j.nextInt();
