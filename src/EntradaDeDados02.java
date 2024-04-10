@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class EntradaDeDados02 {
 
 	public static void main(String[] args) {
+		// Ler um texto até o separador espaço
 		System.out.println("Digite o seu nome, idade e peso separado por espaço: ");
 		Scanner sc = new Scanner(System.in);
 		String nome;
