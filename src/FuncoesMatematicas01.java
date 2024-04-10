@@ -3,9 +3,9 @@ import java.util.Locale;
 public class FuncoesMatematicas01 {
 	
 	public static void main(String[] args) {
-		// sqrt - raiz quadrada
-		// pow - potenciação
-		// abs - valor absoluto
+		// sqrt - raiz quadrada	| A = Math.sqrt(x);
+		// pow - potenciação	| A = Math.pow(x);
+		// abs - valor absoluto | A = Math.abs(x);
 		
 		Locale.setDefault(Locale.US);
 		double x = 3.0;
@@ -28,6 +28,12 @@ public class FuncoesMatematicas01 {
 		System.out.printf("%n%.1f elevado a %.1f é: %.1f%n", x, y, a);
 		System.out.printf("%.1f elevado ao quadrado é: %.1f%n", x, b);
 		System.out.printf("5.0 elevado ao quadrado é: %.1f%n", c);
-				
+		
+		a = Math.abs(x);
+		b = Math.abs(z);
+		
+		System.out.printf("%nO valor absoluto de %.1f é: %.1f%n", x, a);
+		System.out.printf("O valor absoluto de %.1f é: %.1f", z, b);
+		
 	}
 }
