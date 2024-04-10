@@ -17,7 +17,7 @@ public class EntradaDeDados02 {
 		idade = sc.nextInt();
 		peso = sc.nextDouble();
 		
-
 		System.out.printf("Nome: %s%nIdade: %d anos%nPeso: %.1fKg", nome, idade, peso);
+		sc.close();
 	}
 }
