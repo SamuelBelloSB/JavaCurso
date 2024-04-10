@@ -21,6 +21,13 @@ public class FuncoesMatematicas01 {
 		System.out.printf("Raiz quadrada de %.1f é: %.1f%n", y,b);
 		System.out.printf("Raiz quadrada de 25.0 é: %.1f%n", c);
 		
+		a = Math.pow(x, y);
+		b = Math.pow(x, 2.0);
+		c = Math.pow(5.0, 2.0);
+		
+		System.out.printf("%n%.1f elevado a %.1f é: %.1f%n", x, y, a);
+		System.out.printf("%.1f elevado ao quadrado é: %.1f%n", x, b);
+		System.out.printf("5.0 elevado ao quadrado é: %.1f%n", c);
 				
 	}
 }
