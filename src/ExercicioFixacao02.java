@@ -1,7 +1,21 @@
+import java.util.Scanner;
 
 public class ExercicioFixacao02 {
 
 	public static void main(String[] args) {
+		/* Faça um programa para ler dois valores inteiros,
+		 * e depois mostrar na tela a soma desses números
+		 * com uma mensagem explicativa, conforme exemplos.
+		 * */ 
 		
+		System.out.println("Entrada de dois valores: ");
+		Scanner sc = new Scanner(System.in);
+		int a, b;
+		a = sc.nextInt();
+		sc.nextLine();
+		b = sc.nextInt();
+		
+		System.out.println("Soma = " + (a+b));
+		sc.close();
 	}
 }
