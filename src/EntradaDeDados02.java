@@ -12,7 +12,7 @@ public class EntradaDeDados02 {
 		Locale.setDefault(Locale.US);
 		double peso;
 		
-		// Para inserir mais de um elemento na entrada de dados separado por virgula
+		// Para inserir mais de um elemento na entrada de dados separado por espaço
 		// usamos .nextLine();
 		nome = sc.next();
 		idade = sc.nextInt();
